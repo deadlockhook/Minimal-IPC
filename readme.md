@@ -89,7 +89,7 @@ This IPC framework is intended for **general-purpose local inter-process communi
   - `NtCreateEvent`, `NtSetEvent`, `NtWaitForSingleObject`
   - `NtCreateMutant`, `NtReleaseMutant`, etc.
 
-No CRT is required if compiled with:
+No CRT is required if compiled with (malloc/free must be reimplemented):
 ```sh
 /GS- /GR- /EHsc /NODEFAULTLIB
 ```
