@@ -2,6 +2,8 @@
 
 A minimal and efficient inter-process communication (IPC) framework using native Windows NT APIs. This project implements a client-server model backed by shared memory (`NtCreateSection`), kernel event signaling (`NtCreateEvent`), and mutex-based synchronization (`NtCreateMutant`), without relying on Win32 APIs or CRT dependencies.
 
+<img width="1590" height="252" alt="image" src="https://github.com/user-attachments/assets/1064d538-19b3-446c-8652-6e382867864c" />
+
 ---
 
 ## 🔧 Project Description
